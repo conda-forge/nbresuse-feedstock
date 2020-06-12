@@ -1,5 +1,5 @@
 {% set name = "nbresuse" %}
-{% set version = "0.3.3" %}
+{% set version = "0.3.5" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 4289c492cb98f0fc4590da3a14cb7b0ece80cd9333dbff3341d9a8936e2995df
+  sha256: ca17634b6c14974280f8ecad8bdd3f32130357c9e9e05f49896fd4c5aec2dc03
 
 build:
   noarch: python
@@ -32,7 +32,7 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   license_file: LICENSE
-  summary: "Jupyter Notebook Extension for monitoring Resource Usage"
+  summary: Jupyter Notebook Extension for monitoring Resource Usage
   dev_url: https://github.com/yuvipanda/nbresuse
 
 extra:

@@ -1,5 +1,5 @@
 {% set name = "nbresuse" %}
-{% set version = "0.3.6" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 5ba19dd0b08ff19470aeb34cda2f07276a3fb1cd750bc53f3a3e06322664e98e
+  sha256: 1e9244f11fe5e39e07fda320f0658452afde4afd3c75fd641acd8664793fc068
 
 build:
   noarch: python

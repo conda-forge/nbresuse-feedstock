@@ -5,11 +5,11 @@ Home: https://github.com/yuvipanda/nbresuse
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/nbresuse-feedstock/blob/master/LICENSE.txt)
 
 Summary: Jupyter Notebook Extension for monitoring Resource Usage
 
-
+Development: https://github.com/yuvipanda/nbresuse
 
 Current build status
 ====================
